@@ -8,27 +8,39 @@ value="Система Обліку Студентів Навчального З�
 <!-- Include Styles -->
 <link rel="stylesheet"
 href="https://cdn.jsdelivr.net/bootstrap/3.3.0/css/bootstrap.min.css">
-<style type="text/css">.col-xs-12, .col-xs-4, .col-xs-8 {border:1px solid red;}</style>
+<style type="text/css">.col-xs-12, .col-xs-4, .col-xs-8 </style>
 </head>
+
+
 <body>
 <!-- Start Container -->
 <div class="container">
+<div class="row">
 <!-- Start Header -->
-<div class="row" id="header">
 <!-- Logo -->
 <div class="col-xs-8">
-Лого
+<h1>Сервіс Обліку Студентів</h1>
 </div>
 <!-- Groups Selector -->
 <div class="col-xs-4" id="group-selector">
-Селектор Груп
+<strong>Група:</strong>
+<select>
+<option value="">Усі Студенти</option>
+<option value="">МтМ - 21, Подоба Віталій (No 254)</option>
+<option value="">МтМ - 22, Корост Андрій (No 2123)</option>
+</select>
 </div>
 </div>
+<!-- End Header -->
 <!-- End Header -->
 <!-- Start SubHeader -->
 <div class="row" id="sub-header">
 <div class="col-xs-12">
-Навігація
+<ul class="nav nav-tabs" role="tablist">
+<li role="presentation" class="active"><a href="#">Студенти</a></li>
+<li role="presentation"><a href="#">Відвідування</a></li>
+<li role="presentation"><a href="#">Групи</a></li>
+</ul>
 </div>
 </div>
 <!-- End SubHeader -->
@@ -52,4 +64,5 @@ Footer
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
 <script src="https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>
